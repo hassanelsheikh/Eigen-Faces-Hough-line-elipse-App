@@ -1,0 +1,2 @@
+paintellipse: (image_path, a_min=20, a_max=150, b_min=20, b_max=150, delta_a=25, delta_b=25, num_thetas=36, bin_threshold=0.21, min_edge_threshold=50, max_edge_threshold=150, sampling_ratio=0.5)
+lotsOfEllipses: (image_path, a_min=19, a_max=41, b_min=19, b_max=41, delta_a=14, delta_b=14, num_thetas=36, bin_threshold=0.195, min_edge_threshold=50, max_edge_threshold=150, sampling_ratio=0.59)
