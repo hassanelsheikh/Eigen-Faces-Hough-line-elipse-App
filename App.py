@@ -62,7 +62,7 @@ def components_for_variance(eigenvalues, variance_threshold):
 
 
 #Hough
-def detect_and_draw_hough_ellipses(image_path, a_min=19, a_max=41, b_min=19, b_max=41, delta_a=14, delta_b=14, num_thetas=36, bin_threshold=0.195, min_edge_threshold=50, max_edge_threshold=150, sampling_ratio=0.59):
+def detect_and_draw_hough_ellipses(image_path, a_min=19, a_max=41, b_min=19, b_max=41, delta_a=14, delta_b=14, num_thetas=100, bin_threshold=0.195, min_edge_threshold=50, max_edge_threshold=150, sampling_ratio=0.59):
     """
     
         a_min (int): Minimum semi-major axis length of ellipses to detect.
